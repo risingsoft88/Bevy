@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="29dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="48dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_logo_black" />
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_avatar_empty" />
+
+        <LinearLayout
+            android:id="@+id/llAccounts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="28dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:scaleType="fitXY"
+                android:layout_marginRight="34dp"
+                android:src="@drawable/icon_walletaccounts_enable" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:text="Accounts"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llP2P"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="28dp"
+            android:layout_marginTop="35dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="39dp"
+                android:layout_height="21dp"
+                android:scaleType="fitXY"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/icon_walletp2p_enable" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:text="P2P"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llSavings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="28dp"
+            android:layout_marginTop="35dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="21dp"
+                android:scaleType="fitXY"
+                android:layout_marginRight="34dp"
+                android:src="@drawable/icon_walletsavings_enable" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:text="Savings"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llSupport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="28dp"
+            android:layout_marginTop="35dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="22dp"
+                android:scaleType="fitXY"
+                android:layout_marginRight="33dp"
+                android:src="@drawable/icon_walletsupport_enable" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:text="Support"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</FrameLayout>
